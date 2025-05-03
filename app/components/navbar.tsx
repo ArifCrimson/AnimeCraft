@@ -13,7 +13,7 @@ export default function Navbar(){
 
     return(
         <nav className="bg-gray-950 px-6 py-4 flex justify-between items-center text-white shadow-sm">
-            <div className="text-2xl font-bold tracking-wide">
+            <div className={`text-2xl font-bold tracking-wide ${krona.className}`}>
                 AnimeCraft
             </div>
 
