@@ -2,17 +2,15 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative w-full px-6 py-16 md:py-24 bg-zinc-900 text-white rounded-2xl mt-6 shadow-md overflow-hidden">
-      {/* <img src="/gojo-shirt.png" alt="Anime Background" className="absolute inset-0 w-full h-full object-cover z-0" /> */}
-      <Image
+    <section className="relative w-full px-6 py-16 md:py-24 bg-zinc-900 rounded-4xl mt-6 shadow-md overflow-hidden">
+      <img src="/shirt.webp" alt="Anime Background" className="absolute inset-0 w-full h-full object-cover z-0" />
+      {/* <Image
         src="/shirt.webp"
         alt="Gojo shirt"
         width={800}
         height={650}
         className="absolute inset-0 w-full h-full object-cover z-0"
-      />
-
-      {/* <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div> */}
+      /> */}
 
       <div className="relative z-20 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
         <div className="space-y-6">
