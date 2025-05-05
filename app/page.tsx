@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
+import Product from "./components/Product";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="w-full max-w-7xl bg-zinc-800 rounded-2xl shadow-lg p-6 md:p-10">
         <Navbar />
         <Hero/>
+        <Product/>
       </div>
     </main>
   );
