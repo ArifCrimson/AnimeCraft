@@ -11,7 +11,8 @@ export default function Product(){
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {products.map((p) => (
-                <div key={p.id} className="bg-zinc-800 overflow-hidden shadow-lg hover:shadow-red-500 transition">
+                // <div key={p.id} className="bg-zinc-800 border border-zinc-700 overflow-hidden shadow-lg hover:shadow-red-500 transition">
+                <div key={p.id} className="bg-zinc-800 border border-zinc-700 overflow-hidden shadow-[0_0_0_2px_rgba(255,255,255,0.2)] hover:shadow-red-500 transition">  
                     <img src={p.image} alt={p.name} className="w-full h-64 object-cover" />
                     <div className="p-6 space-y-2">
                         <h3 className="text-xl">
