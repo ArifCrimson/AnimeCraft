@@ -12,7 +12,7 @@ export default function Navbar(){
     const [darkMode, setDarkMode] = useState(true);
 
     return(
-        <nav className="relative bg-gray-950 px-6 py-4 flex justify-between items-center text-white shadow-sm">
+        <nav className="fixed top-0 left-0 w-full z-50 bg-gray-950 px-6 py-4 flex justify-between items-center text-white shadow-sm">
             <div className={`text-2xl font-bold tracking-wide ${krona.className}`}>
                 AnimeCraft
             </div>
