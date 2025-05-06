@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[500px] bg-zinc-900 rounded-2xl mt-6 shadow-md overflow-hidden">
+    <section id="home" className="relative w-full h-[500px] bg-zinc-900 rounded-2xl mt-6 shadow-md overflow-hidden">
       <img src="/shirt.webp" alt="Anime Background" className="absolute inset-0 w-full h-full object-cover z-0" />
       {/* <Image
         src="/shirt.webp"

@@ -18,8 +18,8 @@ export default function Navbar(){
             </div>
 
             <ul className={`absolute left-1/2 transform -translate-x-1/2 flex gap-6 text-sm md:text-base ${krona.className}`}>
-                <li className="hover:text-red-500 transition cursor-pointer">Home</li>
-                <li className="hover:text-red-500 transition cursor-pointer">Products</li>
+                <li className="hover:text-red-500 transition cursor-pointer"><a href="#home">Home</a></li>
+                <li className="hover:text-red-500 transition cursor-pointer"><a href="#product">Products</a></li>
                 <li className="hover:text-red-500 transition cursor-pointer">Contact</li>
             </ul>
             
